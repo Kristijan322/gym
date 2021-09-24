@@ -1,0 +1,861 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-content{
+    border-bottom: 1px solid white;
+}
+
+nav{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    width: 70%;
+    float: left;
+    padding-top: 30px;
+}
+.dugme-top{
+    width: 15%;
+    float: left;
+    margin-top: 30px;
+    border: 3px solid #f15d44;
+}
+.dugme-top p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bukvi-logo{
+    color: #f15d44;
+}
+
+.logo p{
+    color: white;
+    font-weight: bolder;
+    font-size: 34px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul a{
+    margin: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.menu ul a:hover{
+    text-decoration: underline;
+    text-decoration-color:#f15d44;
+    text-underline-offset: 5px;
+}
+
+.banner{
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 150px 0;
+    color: white;
+}
+
+.pod-naslovi{
+    color: #f15d44;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.dugme-primary{
+        margin: 40px 0px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 12px;
+        color: #ffffff;
+        text-align: center;
+        width: 160px;
+        height: 46px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+        line-height: 45px;
+}
+.dugme-primary a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.slika-services{
+    width: 50%;
+    float: left;
+}
+
+.slika-services img{
+    width: 100%;
+    height: 660px;
+}
+
+.services-products-1{
+    width: 25%;
+    height: 660px;
+    float: left;
+    background-color: #1e1e1e;
+}
+
+.services-products-2{
+    width: 25%;
+    height: 660px;
+    float: left;
+    background-color: #141414;
+}
+.clearfix{
+    clear: both;
+}
+
+.services-item{
+    padding: 45px;
+}
+
+.services-item h2{
+    color: white;
+    font-weight: bolder;
+}
+
+.services-item p{
+    color: #bdbdbd;
+    line-height: 25px;
+}
+
+.about-us-content{
+    width: 80%;
+    margin: 100px auto;
+}
+
+.about-us-slika{
+    width: 50%;
+    float: left;
+}
+
+.about-us-text{
+    width: 50%;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+
+.dugme-paragraf{
+        margin-top: 5%;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 12px;
+        color: #ffffff;
+        text-align: center;
+        width: 160px;
+        height: 46px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+        line-height: 45px;
+}
+.dugme-paragraf a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.about-us-text h1{
+    font-size: 40px;
+}
+.text-paragraf{
+    color: #747474;
+    width: 70%;
+    line-height: 25px;
+}
+
+.classes-content{
+    width: 60%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.classes-item img{
+    width: 345px;
+}
+
+.classes-naslov{
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.classes-item{
+    position: relative;
+    margin: 20px 15px;
+    display: inline-block;
+}
+
+
+.classes-item-text{
+    position: absolute;
+    width: 305px;
+    bottom: 3px;
+    color: white; 
+    padding-left: 40px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#trainers{
+    background-color: #e7e7e7;
+}
+
+.trainers-item{
+    display: inline-block;
+    margin: 20px 15px;
+}
+.trainers-content{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.trainers-item img{
+    width: 345px;
+}
+.trainers-item-text{
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    bottom: 60px;
+    background-color: white;
+}
+
+.trainers-item-text p{
+    color: #f15d44;
+}
+
+.trainers-naslov{
+    text-align: center;
+    padding: 70px 0px;
+    font-size: 20px;
+}
+#stories{
+    background-image: url(./img/testimonial/testimonial-bg.png);
+}
+
+.stories-content{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.stories-content h1{
+    font-size: 30px;
+}
+.stories-content img{
+    border-radius: 50%;
+}
+.p-1{
+    padding: 50px 0px;
+    width: 55%;
+    margin: 0 auto;
+}
+.p-2{
+    color: #f15d44;
+}
+
+#training{
+    background-image: url(./img/banner-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 658px;
+}
+.training-content{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10% 0px;
+}
+.training-content h1{
+    font-size: 25px;
+}
+.training-text{
+    padding: 30px 0px;
+    width: 50%;
+    line-height: 25px;
+}
+.dugme-training{
+        margin-top: 5%;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0 12px;
+        color: #ffffff;
+        text-align: center;
+        width: 160px;
+        height: 46px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+        line-height: 45px;
+}
+.dugme-training a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.training-slika{
+    position: relative;
+    bottom: 100%;
+    left: 50%;
+    width: 364px;
+}
+
+.membership-content{
+    width: 65%;
+    margin: 0 auto;
+}
+.membership-item{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 18px;
+}
+.membership-naslov h1{
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 40px;
+}
+.membership-item h3{
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 0px;
+        color: #ffffff;
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+        line-height: 45px;
+}
+.item-cena{
+    font-size: 30px;
+    color: #f15d44;
+    font-weight: bold;
+}
+.item-p{
+    font-weight: bold;
+}
+.item-dugme{
+    border: 3px solid #f15d44;
+    padding: 15px 0px;
+    width: 60%;
+    margin: 50px auto;
+}
+.item-dugme a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.item-glavno{
+    background-color:#e7e7e7;
+    padding: 20px 0px;
+}
+
+.item-dugme:hover{
+    font-size: 20px;
+}
+
+#register{
+    background-color: #e7e7e7;
+    margin-top: 50px;
+}
+
+.register-content{
+    width: 63%;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+.register-levo{
+    width: 70%;
+    float: left;
+    text-align: center;
+    background-color: white;
+    height: 465px;
+}
+.register-levo h1{
+    font-size: 40px;
+}
+.clearfix{
+    clear: both;
+}
+.register-desno{
+    width: 30%;
+    float: left;
+}
+.register-desno img{
+    width: 370px;
+}
+.clearfix{
+    clear: both;
+}
+.leva-forma{
+    float: left;
+    padding: 20px 30px;
+    text-align: left;
+    color: #bdbdbd;
+}
+.leva-forma input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 1px solid #bdbdbd;
+}
+
+.clearfix{
+    clear: both;
+}
+.desna-forma{
+    float: right;
+    padding: 20px 30px;
+    text-align: left;
+    color: #bdbdbd;
+}
+.desna-forma input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0px;
+    border: 1px solid #bdbdbd;
+}
+.clearfix{
+    clear: left;
+}
+.register-dugme{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 0px;
+    color: #ffffff;
+    text-align: center;
+    width: 93%;
+    margin: 30px auto;
+    height: 50px;
+    border-left: 2px solid #eb3c5a;
+    border-right: 2px solid #f67831;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+    line-height: 45px;
+}
+.register-dugme a{
+    text-decoration: none;
+    color: white;
+}
+
+.blog-content{
+    width: 65%;
+    margin:  0 auto;
+}
+.blog-naslov{
+    margin: 100px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+.blog-item{
+    margin: 0px 18px;
+    display: inline-block;
+}.gym{
+    color: #f15d44;
+}
+.blog-item p{
+    color: #747474;
+}
+.blog-item h3{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.section-contact-levo{
+    width: 50%;
+    background-image: url(./img/footer-banner/footer-banner-1.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    float: left;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.section-contact-desno{
+    width: 50%;
+    background-image: url(./img/footer-banner/footer-banner-2.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.clearfix{
+    clear: both;
+}
+.section-contact-content-levo{
+    padding: 10% 70px;
+}
+
+.section-contact-content-desno{
+    padding: 10% 70px;
+}
+.section-contact-content-desno h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: white;
+}
+.section-contact-content-levo h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.member{
+    color: #f15d44;
+}
+.dugme-section-content{
+        margin-top: 5%;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 12px 12px;
+        color: #ffffff;
+        text-align: center;
+        width: 160px;
+        height: 46px;
+        border-left: 2px solid #eb3c5a;
+        border-right: 2px solid #f67831;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: linear-gradient(to right, #eb3c5a 0%, #f67831 100%);
+}
+.dugme-section-content a{
+    color: white;
+    text-decoration: none;
+}
+.paragraf-section-content{
+    color: white;
+}
+#subscribe{
+    background-color:#141414;
+}
+.subscribe-content{
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    padding-top: 100px;
+}
+.subscribe-phone{
+    width: 100%;
+}
+.subscribe-phone-item{
+    float: left;
+    width: 33%;
+}
+.clearfix{
+    clear: left;
+}
+.spip{
+    color: #f15d44;
+}
+.spip-2{
+    font-weight: bold;
+}
+.mail-content{
+    margin-top: 100px;
+    padding: 10px 50px;
+    background-image: url(./img/footer-signup.jpg);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 1170px;
+    font-weight: bold;
+    display: inline-block;
+}
+.mail-content h2{
+    text-transform: uppercase;
+}
+.input-class{
+    position: relative;
+    margin-top: -75px;
+    margin-left: 60%;
+}
+.input-class input{
+    width: 250px;
+    height: 30px;
+    padding: 6px 10px;
+}
+.copyright-content p{
+    display: inline-block;
+    padding: 0px 9px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .logo{
+        width: 25%;
+        float: left;
+    }
+    .nav{
+        width: 90%;
+    }
+    .menu{
+        padding-top: 0px;
+        width: 45%;
+    }
+    .dugme-top{
+        width: 28%;
+    }
+    .banner{
+        padding: 100px 0px;
+    }
+    .about-us-text{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .slika-services img{
+        width: 150%;
+        height: 400px;
+    }
+    .classes-naslov{
+        margin-left: 70px;
+    }
+    .trainers-content{
+        width: 80%;
+    }
+    .membership-content{
+        width: 100%;
+    }
+    .membership-item{
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .register-content{
+        width: 100%;
+    }
+    .register-levo{
+        width: 100%;
+        height: 540px;
+    }
+    .register-desno img{
+        width: 410px;
+        margin-top: 210px;
+        margin-left: 25px;
+    }
+    .blog-content{
+        width: 90%;
+    }
+    .section-contact-content-levo{
+        padding: 10% 30px;
+    }
+    .section-contact-content-desno{
+        padding: 10% 30px;
+    }
+    .desna-forma{
+        float: left;
+    }
+    .register-dugme{
+        margin: 70px auto;
+    }
+    .leva-forma{
+        padding: 20px 75px;
+    }
+    .desna-forma{
+        padding: 20px 75px;
+    }
+    .training-slika img{
+        height: 360px;
+        margin-top: 150px;
+    }
+    .about-us-slika img{
+        width: 455px;
+    }
+    .about-us-content{
+        width: 100%;
+    }
+    .classes-content{
+        width: 80%;
+    }
+    .p-1{
+        width: 100%;
+    }
+    .services-products-1{
+        width: 100%;
+    }
+    .services-products-2{
+        width: 100%;
+    }
+    .slika-services img{
+        width: 200%;
+    }
+    .services-item{
+        padding: 30px;
+    }
+    .paragraf-section-content{
+        line-height: 30px;
+    }
+    .subscribe-phone-item{
+        width: 100%;
+    }
+    .copyright-content p{
+        line-height: 30px;
+    }
+    .mail-content{
+        margin-top: 50px;
+        padding: 0px 0px;
+        background-image: none;
+        width: 130px;
+        text-align: center;
+    }
+    .mail-content h2{
+        width: 300px;
+        margin: 0px 60px;
+    }
+    .mail-content p{
+        width: 300px;
+        margin: 90px 60px;
+    }
+    
+    .subscribe-content{
+        width: 93%;
+        padding: 50px 20px;
+    }
+    .text-paragraf{
+        text-align: center;
+        padding-left: 30px;
+    }
+    .dugme-paragraf{
+        margin-left: 105px;
+    }
+    .classes-naslov h1{
+        margin-right: 60px;
+    }
+}
+    
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .top-content nav{
+        width: 80%;
+    }
+    .banner{
+        width: 60%;
+    }
+    .about-us-text{
+        width: 100%;
+        padding-left: 70px;
+    }
+    .about-us-content{
+        width: 65%;
+    }
+    .dugme-paragraf{
+        margin-left: 100px;
+        margin-top: 10%;
+    }
+    .services-products-1,.services-products-2{
+        width: 100%;
+        height: 500px;
+    }
+    .services-item{
+        padding: 15px;
+    }
+    .slika-services img{
+        width: 200%;
+    }
+    .classes-content{
+        width: 85%;
+    }
+    .trainers-content{
+        width: 43%;
+    }
+    .stories-content{
+        width: 100%;
+    }
+    .training-content{
+        width: 70%;
+        padding: 20% 0px;
+    }
+    .membership-item{
+        width: 90%;
+        margin: 20px 18px;
+    }
+    .register-content{
+        width: 100%;
+    }
+    .register-levo{
+        width: 100%;
+    }
+    .register-desno img{
+        display: none;
+    }
+    .section-contact-content-levo{
+        padding: 15% 25px;
+    }
+    .section-contact-content-desno{
+        padding: 15% 25px;
+    }
+    .subscribe-content{
+        width: 90%;
+        padding: 50px 0px;
+    }
+    .mail-content{
+        width: 800px;
+        padding: 10px 10px;
+    }
+    .copyright-content{
+        text-align: center;
+    }
+    .blog-content{
+        width: 48%;
+    }
+    .blog-item{
+        margin: 30px 18px;
+    }
+}
